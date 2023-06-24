@@ -1,0 +1,103 @@
+/* Font Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, p {
+  color: #666666; /* Grey font color */
+}
+
+/* Div Styles */
+.container {
+  width: 400px;
+  height: 600px;
+  background-color: #f2f2f2;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+}
+
+.container:hover {
+  background-color: #dddddd;
+}
+
+.sidebar {
+  width: 200px;
+  height: 300px;
+  background-color: #f2f2f2;
+  border: 1px solid #cccccc;
+  float: left;
+  margin-right: 20px;
+}
+
+.sidebar p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.graph {
+  width: 600px;
+  height: 400px;
+  margin-top: 20px;
+}
+
+
+/*This was originally on the page code*/
+
+body {
+  background-color: #15065a;
+  margin: 0;
+  padding: 0;
+}
+    
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #99b8c0;
+}
+
+h1 {
+  color: #333333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.youtube-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.youtube-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+    
